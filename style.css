@@ -1,60 +1,31 @@
-/* ---- reset ---- */
+html{overflow:auto;
+overflow-x:hidden;
+font-size:18px!important;
+}
+
+body{line-height:1.8! important}
+
+.section-2{
+transform:rotate(-3deg);
+width:50%;
+margin-left:20%}
+
+.ruotato{background:#E5EEF5;transform:rotate(3deg);
+width:150%;
+margin-left:-20%}
+
+h2{}
+h3:hover, i:hover{  color:#ff3c41;   transition: 0.5s;
+}
 
 
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+.d-grid{place-items:center}
 
-
-body {
-   margin: 0;
-   font: normal 75% Arial, Helvetica, sans-serif;
-}
-canvas {
-   display: block;
-   vertical-align: bottom;
-} /* ---- particles.js container ---- */
-.text{position:relative;top:90%; left:5%;  font-size:2.5vmax; text-align:right;margin-right:0;-webkit-text-stroke: 0.2px black;font-family: 'Libre Baskerville', serif;}
-
-#particles-js { 
-   position: absolute;
-   width: 100%;
-   height: 100%;
-   background-color: #647e62;
-   background-image: url("https://papers.co/wallpaper/papers.co-vm26-poly-art-abstract-green-pattern-30-wallpaper.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   
-  background-position:50% 50%;
-   color:white;
-   overflow:hidden;
-} /* ---- stats.js ---- */
-.count-particles {
-   background: #000022;
-   position: absolute;
-   top: 48px;
-   left: 0;
-   width: 80px;
-   color: #13e8e9;
-   font-size: 0.8em;
-   text-align: left;
-   text-indent: 4px;
-   line-height: 14px;
-   padding-bottom: 2px;
-   font-family: Helvetica, Arial, sans-serif;
-   font-weight: bold;
-}
-.js-count-particles {
-   font-size: 1.5em;
-}
-#stats,
-.count-particles {
-   -webkit-user-select: none;
-   margin-top: 5px;
-   margin-left: 5px;
-}
-#stats {
-   border-radius: 3px 3px 0 0;
-   overflow: hidden;
-}
-.count-particles {
-   border-radius: 0 0 3px 3px;
-}
+.divisore{height: 100px;
+transform: rotate(2deg);
+background: #E5EEF5;
+display: block;
+width: 150%;
+overflow: hidden;
+margin-left: -20px;
+margin-bottom: -5%;}
