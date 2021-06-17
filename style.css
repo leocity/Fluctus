@@ -11,18 +11,13 @@ body {
 .section-2 {
   padding-top: 50px;
   padding-bottom: 50px;
-  transform: rotate(-3deg);
-  width: 50%;
-  margin-left: 20%;
-}
-
-.ruotato {
   background: #E5EEF5;
-  transform: rotate(3deg);
-  width: 150%;
-  margin-left: -20%;
 }
 
+/*.ruotato{background:#E5EEF5;transform:rotate(3deg);
+width:150%;
+margin-left:-20%}
+*/
 h3:hover, i:hover {
   color: #ff3c41;
   transition: 0.5s;
